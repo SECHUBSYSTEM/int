@@ -184,3 +184,30 @@
     transition: all 0.5s ease-in;
     display: none;
 }
+
+/* footer */
+.footnavlist,
+.cls {
+    color: #fff
+}
+
+.footnavmenu {
+    display: flex;
+    word-wrap: break-word;
+    justify-content: space-between;
+}
+
+.secondfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footnavlist {
+    margin: 0 20px;
+    line-height: 2;
+}
+
+.footnavlist:hover {
+    color: rgb(5, 125, 155);
+    transition: 0.4s ease-out;
+}
